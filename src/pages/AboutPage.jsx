@@ -30,7 +30,7 @@ function AboutPage() {
     }
   ];
 
-  /*const teamMembers = [
+  const teamMembers = [
     {
       name: 'ABC',
       role: 'Chief Data Officer',
@@ -51,7 +51,7 @@ function AboutPage() {
       role: 'Analytics Director',
       expertise: 'Statistical modeling, visualization'
     }
-  ]; */
+  ]; 
 
   return (
     <>
@@ -174,7 +174,7 @@ function AboutPage() {
           </section>
 
           {/* Team Section */}
-          <section className="py-20 bg-background">
+          {/* <section className="py-20 bg-background">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -209,7 +209,8 @@ function AboutPage() {
                 ))}
               </div>
             </div>
-          </section>
+          </section>  
+          */}
         </main>
 
         <Footer />
