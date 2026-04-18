@@ -158,12 +158,44 @@ React.useEffect(() => {
                 transition={{ duration: 0.6 }}
                 className="text-center mb-16"
               >
-                <h2 className="text-3xl md:text-4xl font-semibold mb-4">
-                  Why leading companies choose MizzenIQ
-                </h2>
-                <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  Our data analytics platform delivers measurable improvements across your entire organization
-                </p>
+               <h1 className="text-3xl md:text-4xl font-semibold mb-4">
+  What’s Holding Businesses Back?
+</h1>
+
+<h2 className="text-3xl md:text-4xl font-semibold mb-6">
+  Most Businesses Don’t Lack Data—They Lack Direction.
+</h2>
+
+<p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+  Despite having access to more data than ever, most businesses still struggle to turn it into clear, actionable decisions.
+</p>
+
+<div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto text-left">
+  <div>
+    <h3 className="font-semibold mb-2">Scattered Data Sources</h3>
+    <p className="text-muted-foreground">
+      Data across Shopify, ads, marketplaces, and spreadsheets creates more noise than clarity.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold mb-2">No Decision Frameworks</h3>
+    <p className="text-muted-foreground">
+      Numbers exist, but there’s no structure to translate them into meaningful actions.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold mb-2">Disconnected Teams</h3>
+    <p className="text-muted-foreground">
+      Marketing, operations, and finance work in silos—leading to misaligned decisions.
+    </p>
+  </div>
+</div>
+
+<p className="text-lg mt-10 text-center">
+  So even when you grow, you don’t know <span className="font-semibold">why</span>—or what to do next.
+</p>
               </motion.div>
 
               {/* 2+1 Layout - First two side by side, third full width below */}
