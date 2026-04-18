@@ -31,12 +31,12 @@ export const IMAGES = {
 
 // ─── CONTACT ─────────────────────────────────────────────────
 export const CONTACT = {
-  email: "info@mizzeniq.com",
-  phone: "+1 (555) 123-4567",
-  phoneTel: "+15551234567", // no spaces/dashes, used in href="tel:..."
-  address: "742 Market Street, San Francisco, CA 94103",
-  addressShort: "San Francisco, CA",
-  hours: "Monday - Friday, 9:00 AM - 6:00 PM PST",
+  email: "intel@mizzeniq.com",
+  //phone: "+1 (555) 123-4567",
+  //phoneTel: "+15551234567", // no spaces/dashes, used in href="tel:..."
+  //address: "742 Market Street, San Francisco, CA 94103",
+  addressShort: "Delhi, India",
+  //hours: "Monday - Friday, 9:00 AM - 6:00 PM PST",
 };
 
 // ─── SOCIAL LINKS ────────────────────────────────────────────
