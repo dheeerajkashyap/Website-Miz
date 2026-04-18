@@ -17,7 +17,7 @@ export const SITE_DESCRIPTION =
 // Option B: Keep the icon + text logo (default)
 //   Set LOGO_USE_IMAGE to false
 export const LOGO_USE_IMAGE = true;
-export const LOGO_IMAGE = "/public/images/logo.png"; // only used if LOGO_USE_IMAGE is true
+export const LOGO_IMAGE = "/images/logo.png"; // only used if LOGO_USE_IMAGE is true
 export const LOGO_ALT = "MizzenIQ logo";
 
 // ─── IMAGES ──────────────────────────────────────────────────
