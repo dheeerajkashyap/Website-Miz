@@ -30,28 +30,28 @@ function AboutPage() {
     }
   ];
 
-  const teamMembers = [
+  /*const teamMembers = [
     {
-      name: 'Maya Chen',
+      name: 'ABC',
       role: 'Chief Data Officer',
       expertise: 'Machine learning, predictive analytics'
     },
     {
-      name: 'Raj Patel',
+      name: 'ABC',
       role: 'VP of Strategy',
       expertise: 'Business intelligence, process optimization'
     },
     {
-      name: 'Lucia Torres',
+      name: 'ABC',
       role: 'Lead Engineer',
       expertise: 'Data infrastructure, cloud architecture'
     },
     {
-      name: 'Kwame Asante',
+      name: 'ABC',
       role: 'Analytics Director',
       expertise: 'Statistical modeling, visualization'
     }
-  ];
+  ]; */
 
   return (
     <>
