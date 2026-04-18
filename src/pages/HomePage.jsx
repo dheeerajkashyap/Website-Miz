@@ -36,8 +36,7 @@ function HomePage() {
 const phrases = [
   "Revenue Scaling",
   "Operational Efficiency",
-  "Cost Optimization",
-  "Team Datafication"
+  "Cost Optimization"
 ];
 
 const [displayText, setDisplayText] = React.useState("");
