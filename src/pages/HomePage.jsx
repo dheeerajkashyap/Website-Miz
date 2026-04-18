@@ -73,10 +73,10 @@ function HomePage() {
                 className="max-w-3xl"
               >
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
-                  Turn data into decisions that drive growth
+                  Build Decision Intelligence
                 </h1>
                 <p className="text-xl text-white/95 leading-relaxed mb-8 max-w-2xl drop-shadow-md">
-                  We help businesses extract meaningful insights from complex data, enabling smarter strategies and measurable results.
+                  We design data systems integrated with business frameworks to enable autonomous decision-making and operational efficiency at scale.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild size="lg" className="text-base shadow-xl hover:shadow-2xl transition-all duration-300">
