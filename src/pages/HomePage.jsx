@@ -32,6 +32,42 @@ function HomePage() {
     }
   ];
 
+
+const phrases = [
+  "Revenue Scaling",
+  "Operational Efficiency",
+  "Cost Optimization",
+  "Team Datafication"
+];
+
+const [displayText, setDisplayText] = React.useState("");
+const [phraseIndex, setPhraseIndex] = React.useState(0);
+const [isDeleting, setIsDeleting] = React.useState(false);
+
+React.useEffect(() => {
+  const currentPhrase = phrases[phraseIndex];
+  let typingSpeed = isDeleting ? 40 : 80;
+
+  const timeout = setTimeout(() => {
+    setDisplayText((prev) =>
+      isDeleting
+        ? currentPhrase.substring(0, prev.length - 1)
+        : currentPhrase.substring(0, prev.length + 1)
+    );
+
+    if (!isDeleting && displayText === currentPhrase) {
+      setTimeout(() => setIsDeleting(true), 1200);
+    } else if (isDeleting && displayText === "") {
+      setIsDeleting(false);
+      setPhraseIndex((prev) => (prev + 1) % phrases.length);
+    }
+  }, typingSpeed);
+
+  return () => clearTimeout(timeout);
+}, [displayText, isDeleting, phraseIndex]);
+
+  
+  
   return (
     <>
       <Helmet>
@@ -78,6 +114,16 @@ function HomePage() {
                 <p className="text-xl text-white/95 leading-relaxed mb-8 max-w-2xl drop-shadow-md">
                   We design data systems integrated with business frameworks to enable autonomous decision-making and operational efficiency at scale.
                 </p>
+<div className="mb-8">
+  <p className="text-lg text-white/80 mb-2">
+    For Businesses Seeking:
+  </p>
+  <p className="text-2xl md:text-3xl font-semibold text-white h-[40px]">
+    {displayText}
+    <span className="animate-pulse">|</span>
+  </p>
+</div>
+                
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild size="lg" className="text-base shadow-xl hover:shadow-2xl transition-all duration-300">
                     <Link to="/contact">
