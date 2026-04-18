@@ -126,7 +126,7 @@ React.useEffect(() => {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild size="lg" className="text-base shadow-xl hover:shadow-2xl transition-all duration-300">
                     <Link to="/contact">
-                      Get started
+                      Get First Solution | Free
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </Link>
                   </Button>
@@ -136,8 +136,8 @@ React.useEffect(() => {
                     variant="outline" 
                     className="text-base bg-white/15 border-white/30 text-white hover:bg-white/25 hover:border-white/40 backdrop-blur-sm shadow-lg transition-all duration-300"
                   >
-                    <Link to="/solutions">
-                      View solutions
+                    <Link to="/CaseStudies">
+                      Case Studies
                     </Link>
                   </Button>
                 </div>
