@@ -112,13 +112,13 @@ React.useEffect(() => {
                   Build Decision Intelligence
                 </h1>
                 <p className="text-xl text-white/95 leading-relaxed mb-8 max-w-2xl drop-shadow-md">
-                  We design data systems integrated with business frameworks to enable autonomous decision-making and operational efficiency at scale.
+                Turn your data into structured systems that drive faster, smarter decisions at scale.
                 </p>
 <div className="mb-8">
   <p className="text-lg text-white/80 mb-2">
     For Businesses Seeking:
   </p>
-  <p className="text-2xl md:text-3xl font-semibold text-white h-[40px]">
+  <p className="text-2xl md:text-3xl font-semibold h-[40px] bg-gradient-to-r from-teal-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
     {displayText}
     <span className="animate-pulse">|</span>
   </p>
