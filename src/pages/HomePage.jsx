@@ -107,7 +107,7 @@ React.useEffect(() => {
                 transition={{ duration: 0.8, delay: 0.3 }}
                 className="max-w-3xl"
               >
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 drop-shadow-lg">
                   Build Decision Intelligence
                 </h1>
                 <p className="text-xl text-white/95 leading-relaxed mb-8 max-w-2xl drop-shadow-md">
