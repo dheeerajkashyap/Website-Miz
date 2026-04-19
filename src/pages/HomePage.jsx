@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Zap, Target, Shield, ArrowRight, DatabaseZap, MonitorCog, handshake } from 'lucide-react';
+import { Zap, Target, Shield, ArrowRight, DatabaseZap, MonitorCog, Handshake } from 'lucide-react';
 import { SITE_NAME, IMAGES } from '@/config/site';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
@@ -47,7 +47,7 @@ function HomePage() {
       metric: '47%'
     },
     {
-      icon: handshake,
+      icon: Handshake,
       title: 'Disconnected Teams',
       description: 'Marketing, operations, and finance work in silos—leading to misaligned decisions.',
       metric: '83%'
