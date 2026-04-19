@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Zap, Target, Shield, ArrowRight, database-zap, monitor-cog, handshake } from 'lucide-react';
+import { Zap, Target, Shield, ArrowRight, databaseZap, monitorCog, handshake } from 'lucide-react';
 import { SITE_NAME, IMAGES } from '@/config/site';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
@@ -35,13 +35,13 @@ function HomePage() {
 
   const areas = [
     {
-      icon: database-zap,
+      icon: databaseZap,
       title: 'Scattered Data Sources',
       description: 'Data across Shopify, Meta/Google ads, marketplaces, and Inventory ERPs creates more noise than clarity.',
       metric: '2.4x'
     },
     {
-      icon: monitor-cog,
+      icon: monitorCog,
       title: 'No Data Frameworks',
       description: 'Numbers exist, but there’s no structure with business context to translate them into concrete actions.',
       metric: '47%'
