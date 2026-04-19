@@ -43,7 +43,7 @@ function HomePage() {
     {
       icon: Target,
       title: 'No Data Frameworks',
-      description: 'Numbers exist, but there’s no structure with business context to translate them into meaningful actions.',
+      description: 'Numbers exist, but there’s no structure with business context to translate them into concrete actions.',
       metric: '47%'
     },
     {
@@ -184,15 +184,16 @@ React.useEffect(() => {
   Broader Vision
 </h1>
 
-<h2 className="text-2xl md:text-3xl font-semibold mb-6">
+<h2 className="text-1xl md:text-2xl font-semibold mb-6">
   Most Businesses Don’t Lack Data-They Lack Direction.
 </h2>
 
 <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
   Despite having access to more data than ever, most businesses still struggle to turn it into clear, actionable decisions.
 </p>
+                <br></br>
 <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-  What acts as a Blocker?
+  What Stops?
 </h2>
 
 
