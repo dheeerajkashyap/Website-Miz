@@ -33,6 +33,28 @@ function HomePage() {
   ];
 
 
+  const areas = [
+    {
+      icon: Zap,
+      title: 'Scattered Data Sources',
+      description: 'Data across Shopify, Meta/Google ads, marketplaces, and Inventory ERPs creates more noise than clarity.',
+      metric: '2.4x'
+    },
+    {
+      icon: Target,
+      title: 'No Data Frameworks',
+      description: 'Numbers exist, but there’s no structure with business context to translate them into meaningful actions.',
+      metric: '47%'
+    },
+    {
+      icon: Shield,
+      title: 'DIsconnected Teams',
+      description: 'Marketing, operations, and finance work in silos—leading to misaligned decisions.',
+      metric: '83%'
+    }
+  ];
+
+
 const phrases = [
   "Revenue Scaling",
   "Operational Efficiency",
@@ -173,29 +195,32 @@ React.useEffect(() => {
   What acts as a Blocker?
 </h2>
 
+
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                {areas.slice(0, 2).map((benefit, index) => (
+                  <BenefitCard
+                    key={index}
+                    icon={area.icon}
+                    title={area.title}
+                    description={area.description}
+                    metric={area.metric}
+                    index={index}
+                  />
+                ))}
+              </div>
+              <div className="max-w-3xl mx-auto">
+                <BenefitCard
+                  icon={areas[2].icon}
+                  title={areas[2].title}
+                  description={areas[2].description}
+                  metric={areas[2].metric}
+                  index={2}
+                />
+              </div>
+            </div>
+
                 
-<div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto text-left">
-  <div>
-    <h3 className="font-semibold mb-2">Scattered Data Sources</h3>
-    <p className="text-muted-foreground">
-      Data across Shopify, Meta/Google ads, marketplaces, and Inventory ERPs creates more noise than clarity.
-    </p>
-  </div>
 
-  <div>
-    <h3 className="font-semibold mb-2">No Decision Frameworks</h3>
-    <p className="text-muted-foreground">
-      Numbers exist, but there’s no structure to translate them into meaningful actions.
-    </p>
-  </div>
-
-  <div>
-    <h3 className="font-semibold mb-2">Disconnected Teams</h3>
-    <p className="text-muted-foreground">
-      Marketing, operations, and finance work in silos—leading to misaligned decisions.
-    </p>
-  </div>
-</div>
 
 <p className="text-lg mt-10 text-center">
   So even when you grow, you don’t know <span className="font-semibold">why</span>—or what to do next.
