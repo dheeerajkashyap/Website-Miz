@@ -197,7 +197,7 @@ React.useEffect(() => {
 
 
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-                {areas.slice(0, 2).map((benefit, index) => (
+                {areas.slice(0, 2).map((areas, index) => (
                   <BenefitCard
                     key={index}
                     icon={area.icon}
@@ -218,7 +218,7 @@ React.useEffect(() => {
                 />
               </div>
           
-                
+              //Important
 
 
 <p className="text-lg mt-10 text-center">
