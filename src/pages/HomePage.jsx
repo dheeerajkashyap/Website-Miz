@@ -159,22 +159,26 @@ React.useEffect(() => {
                 className="text-center mb-16"
               >
                <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-  What’s Holding Businesses Back?
+  Broader Vision
 </h1>
 
-<h2 className="text-3xl md:text-4xl font-semibold mb-6">
-  Most Businesses Don’t Lack Data—They Lack Direction.
+<h2 className="text-2xl md:text-3xl font-semibold mb-6">
+  Most Businesses Don’t Lack Data-They Lack Direction.
 </h2>
 
 <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
   Despite having access to more data than ever, most businesses still struggle to turn it into clear, actionable decisions.
 </p>
+<h2 className="text-2xl md:text-3xl font-semibold mb-6">
+  What acts as a Blocker?
+</h2>
 
+                
 <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto text-left">
   <div>
     <h3 className="font-semibold mb-2">Scattered Data Sources</h3>
     <p className="text-muted-foreground">
-      Data across Shopify, ads, marketplaces, and spreadsheets creates more noise than clarity.
+      Data across Shopify, Meta/Google ads, marketplaces, and Inventory ERPs creates more noise than clarity.
     </p>
   </div>
 
