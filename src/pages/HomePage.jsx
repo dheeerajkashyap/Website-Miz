@@ -196,8 +196,28 @@ React.useEffect(() => {
 </h2>
 
 
-
-
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                {areas.slice(0, 2).map((benefit, index) => (
+                  <BenefitCard
+                    key={index}
+                    icon={area.icon}
+                    title={area.title}
+                    description={area.description}
+                    metric={area.metric}
+                    index={index}
+                  />
+                ))}
+              </div>
+              <div className="max-w-3xl mx-auto">
+                <BenefitCard
+                  icon={areas[2].icon}
+                  title={areas[2].title}
+                  description={areas[2].description}
+                  metric={areas[2].metric}
+                  index={2}
+                />
+              </div>
+          
                 
 
 
