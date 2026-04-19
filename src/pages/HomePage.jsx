@@ -196,8 +196,13 @@ React.useEffect(() => {
 </h2>
 
 
+              </motion.div>
+
+
+
+              
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-                {areas.slice(0, 2).map((areas, index) => (
+                {areas.slice(0, 2).map((area, index) => (
                   <BenefitCard
                     key={index}
                     icon={area.icon}
@@ -224,7 +229,6 @@ React.useEffect(() => {
 <p className="text-lg mt-10 text-center">
   So even when you grow, you don’t know <span className="font-semibold">why</span>—or what to do next.
 </p>
-              </motion.div>
 
               {/* 2+1 Layout - First two side by side, third full width below */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
