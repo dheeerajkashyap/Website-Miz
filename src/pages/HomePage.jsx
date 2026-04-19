@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Zap, Target, Shield, ArrowRight } from 'lucide-react';
+import { Zap, Target, Shield, ArrowRight, database-zap, monitor-cog, handshake } from 'lucide-react';
 import { SITE_NAME, IMAGES } from '@/config/site';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
@@ -35,20 +35,20 @@ function HomePage() {
 
   const areas = [
     {
-      icon: Zap,
+      icon: database-zap,
       title: 'Scattered Data Sources',
       description: 'Data across Shopify, Meta/Google ads, marketplaces, and Inventory ERPs creates more noise than clarity.',
       metric: '2.4x'
     },
     {
-      icon: Target,
+      icon: monitor-cog,
       title: 'No Data Frameworks',
       description: 'Numbers exist, but there’s no structure with business context to translate them into concrete actions.',
       metric: '47%'
     },
     {
-      icon: Shield,
-      title: 'DIsconnected Teams',
+      icon: handshake,
+      title: 'Disconnected Teams',
       description: 'Marketing, operations, and finance work in silos—leading to misaligned decisions.',
       metric: '83%'
     }
@@ -209,7 +209,7 @@ React.useEffect(() => {
                     icon={area.icon}
                     title={area.title}
                     description={area.description}
-                    metric={area.metric}
+                    
                     index={index}
                   />
                 ))}
@@ -219,7 +219,7 @@ React.useEffect(() => {
                   icon={areas[2].icon}
                   title={areas[2].title}
                   description={areas[2].description}
-                  metric={areas[2].metric}
+                  
                   index={2}
                 />
               </div>
