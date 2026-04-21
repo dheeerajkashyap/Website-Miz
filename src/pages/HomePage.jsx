@@ -196,45 +196,49 @@ React.useEffect(() => {
 
               {/* 2+1 Layout - First two side by side, third full width below */}
 
-             
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6 }}
-                className="text-center mb-16"
-              >
-              <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-  What Stops?
-</h1>
-              </motion.div>
-            </div>
+
               
-    
+        <section className="py-16 md:py-24 bg-slate-50">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    {/* Heading */}
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      className="text-center mb-16"
+    >
+      <h1 className="text-3xl md:text-4xl font-semibold mb-4">
+        What Stops?
+      </h1>
+    </motion.div>
+
+    {/* Grid Content */}
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+      {areas.slice(0, 2).map((area, index) => (
+        <BenefitCard
+          key={index}
+          icon={area.icon}
+          title={area.title}
+          description={area.description}
+          index={index}
+        />
+      ))}
+    </div>
+
+    {/* Single Card */}
+    <div className="max-w-3xl mx-auto">
+      <BenefitCard
+        icon={areas[2].icon}
+        title={areas[2].title}
+        description={areas[2].description}
+        index={2}
+      />
+    </div>
+  </div>
+</section>
+
               
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-                {areas.slice(0, 2).map((area, index) => (
-                  <BenefitCard
-                    key={index}
-                    icon={area.icon}
-                    title={area.title}
-                    description={area.description}
-                    
-                    index={index}
-                  />
-                ))}
-              </div>
-              <div className="max-w-3xl mx-auto">
-                <BenefitCard
-                  icon={areas[2].icon}
-                  title={areas[2].title}
-                  description={areas[2].description}
-                  
-                  index={2}
-                />
-              </div>
-          
             
 <p className="text-lg mt-10 text-center">
   So even when you grow, you don’t know <span className="font-semibold">why</span>-or what to do next.
