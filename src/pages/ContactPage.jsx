@@ -10,9 +10,9 @@ import { SITE_NAME, CONTACT } from '@/config/site';
 function ContactPage() {
   const contactInfo = [
     { icon: Mail,  label: 'Email',          value: CONTACT.email,   link: `mailto:${CONTACT.email}` },
-    { icon: Phone, label: 'Phone',          value: CONTACT.phone,   link: `tel:${CONTACT.phoneTel}` },
+    {/* { icon: Phone, label: 'Phone',          value: CONTACT.phone,   link: `tel:${CONTACT.phoneTel}` },*/}
     { icon: MapPin,label: 'Office',         value: CONTACT.address },
-    { icon: Clock, label: 'Business hours', value: CONTACT.hours },
+    {/* { icon: Clock, label: 'Business hours', value: CONTACT.hours },*/}
   ];
 
   return (
@@ -31,7 +31,7 @@ function ContactPage() {
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="max-w-3xl mx-auto text-center">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">Let's start a conversation</h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  Tell us about your data challenges and we'll show you how {SITE_NAME} can help
+                  Tell us about your business challenges and we'll show you how {SITE_NAME} data and AI solutions can help
                 </p>
               </motion.div>
             </div>
