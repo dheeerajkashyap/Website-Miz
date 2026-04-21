@@ -181,10 +181,10 @@ React.useEffect(() => {
                 className="text-center mb-16"
               >
                <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-  BROADER VISION
+  Broader Vision
 </h1>
 
-<h2 className="text-1xl md:text-2xl font-semibold mb-8">
+<h2 className="text-1xl md:text-1xl font-semibold mb-4">
   Most Businesses Don’t Lack Data-They Lack Direction.
 </h2>
 
@@ -195,9 +195,9 @@ React.useEffect(() => {
                 <br></br>
 
               {/* 2+1 Layout - First two side by side, third full width below */}
-              <h2 className="text-2xl md:text-3xl font-semibold mb-6">
+              <h1 className="text-3xl md:text-4xl font-semibold mb-4">
   What Stops?
-</h2>
+</h1>
 
 
     
