@@ -10,9 +10,9 @@ import { SITE_NAME, CONTACT } from '@/config/site';
 function ContactPage() {
   const contactInfo = [
     { icon: Mail,  label: 'Email',          value: CONTACT.email,   link: `mailto:${CONTACT.email}` },
-    {/* { icon: Phone, label: 'Phone',          value: CONTACT.phone,   link: `tel:${CONTACT.phoneTel}` },*/}
+     //{ icon: Phone, label: 'Phone',          value: CONTACT.phone,   link: `tel:${CONTACT.phoneTel}` },
     { icon: MapPin,label: 'Office',         value: CONTACT.address },
-    {/* { icon: Clock, label: 'Business hours', value: CONTACT.hours },*/}
+    //{ icon: Clock, label: 'Business hours', value: CONTACT.hours },
   ];
 
   return (
