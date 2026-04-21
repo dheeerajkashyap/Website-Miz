@@ -31,7 +31,7 @@ function ContactPage() {
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="max-w-3xl mx-auto text-center">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">Let's start a conversation</h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  Tell us about your business challenges and we'll show you how {SITE_NAME} data and AI solutions can help
+                  Tell us about your business challenges and we'll show you how {SITE_NAME}'s data and AI solutions can help!
                 </p>
               </motion.div>
             </div>
@@ -77,7 +77,7 @@ function ContactPage() {
               </div>
             </div>
           </section>
-
+          {/*
           <section className="py-20 bg-muted/50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="max-w-5xl mx-auto">
@@ -89,7 +89,7 @@ function ContactPage() {
               </motion.div>
             </div>
           </section>
-
+*/}
         </main>
         <Footer />
       </div>
