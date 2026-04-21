@@ -34,7 +34,7 @@ export const CONTACT = {
   email: "intel@mizzeniq.com",
   //phone: "+1 (555) 123-4567",
   //phoneTel: "+15551234567", // no spaces/dashes, used in href="tel:..."
-  //address: "742 Market Street, San Francisco, CA 94103",
+  address: "Delhi, India",
   addressShort: "Delhi, India",
   //hours: "Monday - Friday, 9:00 AM - 6:00 PM PST",
 };
