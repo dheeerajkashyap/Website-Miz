@@ -181,26 +181,24 @@ React.useEffect(() => {
                 className="text-center mb-16"
               >
                <h1 className="text-3xl md:text-4xl font-semibold mb-4">
-  Broader Vision
+  BROADER VISION
 </h1>
 
-<h2 className="text-1xl md:text-2xl font-semibold mb-6">
+<h2 className="text-1xl md:text-2xl font-semibold mb-8">
   Most Businesses Don’t Lack Data-They Lack Direction.
 </h2>
 
 <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
   Despite having access to more data than ever, most businesses still struggle to turn it into clear, actionable decisions.
 </p>
+                   </motion.div>
                 <br></br>
 <h2 className="text-2xl md:text-3xl font-semibold mb-6">
   What Stops?
 </h2>
 
 
-              </motion.div>
-
-
-
+    
               
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                 {areas.slice(0, 2).map((area, index) => (
@@ -224,13 +222,17 @@ React.useEffect(() => {
                 />
               </div>
           
-              //Important
-
-
+            
 <p className="text-lg mt-10 text-center">
-  So even when you grow, you don’t know <span className="font-semibold">why</span>—or what to do next.
+  So even when you grow, you don’t know <span className="font-semibold">why</span>-or what to do next.
 </p>
 
+              <br></br>
+                
+          <h2 className="text-2xl md:text-3xl font-semibold mb-6">
+            What Stops?
+          </h2>
+              
               {/* 2+1 Layout - First two side by side, third full width below */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                 {benefits.slice(0, 2).map((benefit, index) => (
