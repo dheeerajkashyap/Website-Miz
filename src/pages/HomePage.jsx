@@ -228,8 +228,8 @@ React.useEffect(() => {
 </p>
 
               <br></br>
-                
-          <h2 className="text-2xl md:text-3xl font-semibold mb-6">
+              {/*
+              <h2 className="text-2xl md:text-3xl font-semibold mb-6">
             What Stops?
           </h2>
               
@@ -255,6 +255,7 @@ React.useEffect(() => {
                   index={2}
                 />
               </div>
+               */}
             </div>
           </section>
 
