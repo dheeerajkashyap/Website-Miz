@@ -194,7 +194,7 @@ React.useEffect(() => {
                    </motion.div>
                 <br></br>
 
-              {/* 2+1 Layout - First two side by side, third full width below 
+              {/* 2+1 Layout - First two side by side, third full width below */}
               <h2 className="text-2xl md:text-3xl font-semibold mb-6">
   What Stops?
 </h2>
@@ -230,12 +230,13 @@ React.useEffect(() => {
 </p>
 
               <br></br>
-              
+              {/*
               <h2 className="text-2xl md:text-3xl font-semibold mb-6">
             What Stops?
           </h2>
-              
+              */}
               {/* 2+1 Layout - First two side by side, third full width below */}
+             {/*
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                 {benefits.slice(0, 2).map((benefit, index) => (
                   <BenefitCard
