@@ -6,6 +6,8 @@ import ServicesPage from './pages/ServicesPage.jsx';
 import SolutionsPage from './pages/SolutionsPage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
+import CaseStudy from './pages/CaseStudy.jsx';
+
 import { Toaster } from '@/components/ui/sonner';
 
 function App() {
