@@ -20,6 +20,7 @@ function App() {
         <Route path="/solutions" element={<SolutionsPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/CaseStudy" element={<CaseStudy />} />
         <Route path="*" element={
           <div className="min-h-screen flex items-center justify-center bg-background">
             <div className="text-center">
