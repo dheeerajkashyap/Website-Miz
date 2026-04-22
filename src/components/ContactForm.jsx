@@ -71,9 +71,17 @@ function ContactForm() {
     setIsSubmitting(true);
 
     try {
-      await fetch("https://script.google.com/macros/s/AKfycbyBrdkwANzMwQqpVyAZL9364zbbqCnrd6hhkoZXdmd-QikWidD8MHgadhMilZndlLKc/exec", {
+      const params = new URLSearchParams();
+      params.append('name', formData.name);
+      params.append('email', formData.email);
+      params.append('phone', formData.phone);
+      params.append('company', formData.company);
+      params.append('message', formData.message);
+
+      const response = await fetch("https://script.google.com/macros/s/AKfycbyBrdkwANzMwQqpVyAZL9364zbbqCnrd6hhkoZXdmd-QikWidD8MHgadhMilZndlLKc/exec", {
         method: "POST",
-        body: JSON.stringify(formData),
+        mode: "no-cors",
+        body: params,
       });
 
       toast.success("Message sent successfully!");
