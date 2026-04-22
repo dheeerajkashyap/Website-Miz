@@ -158,7 +158,7 @@ React.useEffect(() => {
                     variant="outline" 
                     className="text-base bg-white/15 border-white/30 text-white hover:bg-white/25 hover:border-white/40 backdrop-blur-sm shadow-lg transition-all duration-300"
                   >
-                    <Link to="/CaseStudies">
+                    <Link to="/CaseStudy">
                       Case Studies
                     </Link>
                   </Button>
