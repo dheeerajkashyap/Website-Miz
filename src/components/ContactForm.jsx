@@ -78,7 +78,7 @@ function ContactForm() {
       params.append('company', formData.company);
       params.append('message', formData.message);
 
-      const response = await fetch("https://script.google.com/macros/s/AKfycbyBrdkwANzMwQqpVyAZL9364zbbqCnrd6hhkoZXdmd-QikWidD8MHgadhMilZndlLKc/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbxffZW6F6DxGRg1ezjcxCQwueZ2wEmvRn4BVSbu-VsleaTzimIaDFJukew2njWmhMko/exec", {
         method: "POST",
         mode: "no-cors",
         body: params,
