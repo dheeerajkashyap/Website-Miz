@@ -7,6 +7,7 @@ import SolutionsPage from './pages/SolutionsPage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
 import CaseStudy from './pages/CaseStudy.jsx';
+import FreightSaver from "./pages/Freight-Saver";
 
 import { Toaster } from '@/components/ui/sonner';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/CaseStudy" element={<CaseStudy />} />
+        <Route path="/freight-saver" element={<FreightSaver />} />
         <Route path="*" element={
           <div className="min-h-screen flex items-center justify-center bg-background">
             <div className="text-center">
