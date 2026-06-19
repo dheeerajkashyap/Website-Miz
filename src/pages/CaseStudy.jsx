@@ -249,12 +249,23 @@ function CaseStudyPage() {
                 <p className="text-lg text-primary-foreground/90 mb-8 leading-relaxed">
                   Join hundreds of businesses that rely on {SITE_NAME} for data-driven decision making
                 </p>
-                <Button asChild size="lg" variant="secondary" className="text-base">
-                  <Link to="/contact">
-                    Schedule a consultation
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Link>
-                </Button>
+                
+               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+  <Button asChild size="lg" variant="secondary" className="text-base">
+    <Link to="/contact">
+      Schedule a consultation
+      <ArrowRight className="w-4 h-4 ml-2" />
+    </Link>
+  </Button>
+  <Button asChild size="lg" variant="outline" className="text-base border-white text-white hover:bg-white hover:text-primary">
+    <Link to="/freight-saver">
+      ⚡ Freight Saver
+      <ArrowRight className="w-4 h-4 ml-2" />
+    </Link>
+  </Button>
+</div>
+
+                
               </motion.div>
             </div>
           </section>
