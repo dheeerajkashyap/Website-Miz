@@ -1,3 +1,15 @@
+import React from 'react';
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop.jsx';
+import HomePage from './pages/HomePage.jsx';
+import ServicesPage from './pages/ServicesPage.jsx';
+import SolutionsPage from './pages/SolutionsPage.jsx';
+import AboutPage from './pages/AboutPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
+import CaseStudy from './pages/CaseStudy.jsx';
+import FreightSaver from "./pages/Freight-Saver";
+import { Toaster } from '@/components/ui/sonner';
+
 function App() {
   return (
     <Router>
@@ -24,3 +36,5 @@ function App() {
     </Router>
   );
 }
+
+export default App;
