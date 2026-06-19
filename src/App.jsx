@@ -13,7 +13,7 @@ import { Toaster } from '@/components/ui/sonner';
 
 function App() {
   return (
-    <Router basename="/Website-Miz/">
+    <BrowserRouter basename="/">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
