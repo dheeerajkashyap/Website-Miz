@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import SolutionCard from '@/components/SolutionCard.jsx';
+import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 
 function SolutionsPage() {
   const solutions = [
