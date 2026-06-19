@@ -13,9 +13,7 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  // Change '' to '/your-repo-name/' if deploying to GitHub Pages project site
-  // e.g. base: '/my-website/'
-  base: '/Website-Miz/',
+  base: '/',
   build: {
     outDir: 'dist',
   },
