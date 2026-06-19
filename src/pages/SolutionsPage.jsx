@@ -121,7 +121,9 @@ function SolutionsPage() {
                   <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                     A Fortune 500 logistics company partnered with MizzenIQ to modernize their operations analytics. Within six months, they reduced average decision-making time from 72 hours to 31 hours while improving forecast accuracy by 42%.
                   </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6 border-t border-border">
+                  
+
+ <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6 border-t border-border">
                     <div>
                       <div className="text-3xl font-bold text-primary mb-1">31hrs</div>
                       <div className="text-sm text-muted-foreground">Average decision time</div>
@@ -135,7 +137,15 @@ function SolutionsPage() {
                       <div className="text-sm text-muted-foreground">Annual savings</div>
                     </div>
                   </div>
+                  <div className="mt-8 pt-6 border-t border-border">
+                    <Link to="/freight-saver" className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors px-6 py-3 rounded-lg text-sm font-semibold">
+                      ⚡ Try Freight Saver
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                    <p className="text-xs text-muted-foreground mt-2">Audit your courier charges in minutes</p>
+                  </div>
                 </div>
+                  
               </motion.div>
             </div>
           </section>
